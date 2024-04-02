@@ -64,7 +64,7 @@ request.onload=function()
     var data=request.response;
     var result=JSON.parse(data);
     //console.log(result);
-var current=result.filter((ele)=>(ele.currencies && ele.currencies==="USD");
+var current=result.filter((ele)=>ele.currencies && ele.currencies.USD);
 var final=current.forEach((ele) => console.log(ele.name.common));
 }*/
 
